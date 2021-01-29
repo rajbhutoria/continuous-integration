@@ -19,7 +19,7 @@ def  factorial(n):
     '''
     result = 1
     for i in range(2, n+1):
-        result* = i
+        result *= i
     return result
 
 def  triangular(n):
@@ -44,5 +44,5 @@ def  triangular(n):
     '''
     result = 1
     for i in range(2, n+1):
-        result+ = i
+        result += i
     return result
