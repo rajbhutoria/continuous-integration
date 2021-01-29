@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
-def  factorial(n):
+
+def factorial(n):
     '''
     Returns the product of all numbers from 1 to n.
 
@@ -22,7 +23,8 @@ def  factorial(n):
         result *= i
     return result
 
-def  triangular(n):
+
+def triangular(n):
     '''
     Returns the nth triangular number.
 
